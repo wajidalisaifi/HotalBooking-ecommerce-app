@@ -1,0 +1,34 @@
+
+.imgContainer{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 92vh;
+}
+.img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+
+  /* object-fit: cover; */
+}
+.text{
+  position: absolute;
+  font-size: 20px;
+  text-align: center;
+  z-index: 2;
+  top: 30px;
+}
+.width{
+  font-size: 40px;
+  font-weight: bold;
+}
+.clr{
+  color: peru;
+}
+  
